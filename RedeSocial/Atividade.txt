@@ -1,0 +1,60 @@
+Atividade Final do DevEvolution PHP 2024
+Desenvolvimento de uma Rede Social
+Desenvolva uma rede social básica que permita aos usuários se registrar, fazer login, criar posts, curtir posts e seguir outros usuários. O sistema deve ser desenvolvido usando PHP, SQLite e sessões HTTP.
+
+É necessário utilizar todos os aprendizados adquiridos em sala para a resolução desta atividade.
+
+Requisitos
+Banco de Dados SQLite
+Tabelas: Crie as tabelas usuarios, posts, curtidas e seguidores (os nomes podem ser ajustados conforme necessário).
+Estrutura das Tabelas: Defina a estrutura das tabelas de acordo com os requisitos abaixo, garantindo que os dados necessários sejam armazenados corretamente.
+Autenticação de Usuário
+Crie uma página para que novos usuários possam se cadastrar.
+Permita que os usuários façam login após o cadastro, utilizando email e senha.
+Utilize sessões PHP para manter os usuários autenticados.
+Garanta que apenas usuários autenticados possam criar posts e curtir posts.
+Postagem
+Crie uma página que mostre todos os posts feitos na rede social, ordenados pela data de criação, do mais novo para o mais velho.
+Permita que os usuários façam novas postagens com até 100 caracteres.
+Curtidas
+Permita que os usuários curtam as postagens de outros usuários.
+Mostre o total de curtidas de cada postagem no feed principal.
+Perfil
+Permita que os usuários visitem o perfil de outros usuários.
+Ao visitar um perfil, mostre os dados do usuário e suas postagens, similar ao feed principal.
+Contabilize e mostre o número de visitas ao perfil.
+Mostre o total de seguidores.
+Permita que os usuários autenticados editem seu próprio perfil.
+Ofereça a opção de deletar a conta: ao deletar a conta, exclua todos os posts, curtidas e informações do usuário, e deslogue da rede.
+Controle de Seguidores
+Permita que os usuários sigam e deixem de seguir outros usuários.
+A interface visual fica a critério de vocês; podem fazer o básico ou utilizar algo pronto, como Bootstrap.
+Funcionalidades opcionais
+Se você conseguiu realizar a atividade em pouco tempo, deixarei mais alguns desafios que são opcionais:
+
+Postagem
+Adicione a funcionalidade de anexar uma imagem a um post. As imagens devem ser armazenadas no servidor, e o caminho da imagem deve ser salvo no banco de dados.
+Curtidas
+Permita que os usuários descurtam os posts que já curtiram.
+Perfil
+Adicione uma funcionalidade de biografia para que os usuários possam adicionar uma descrição sobre si mesmos.
+Avaliação
+A avaliação consistirá no atendimento aos requisitos obrigatórios. Será levado em consideração a lógica de resolução, a organização do código, a estrutura do banco de dados e, claro, o pleno funcionamento do sistema.
+
+As funcionalidades opcionais não contarão pontos adicionais, mas demonstrarão seu interesse e capacidade lógica para resolução de problemas.
+
+Entrega
+O prazo de entrega é o dia 15/07/2024.
+
+Após finalizar, envie um email para marcolindev@gmail.com com o título: Atividade Final DevEvolution PHP 2024 - {Nome Completo}
+
+Inclua no email:
+
+O link para o repositório do projeto (GitHub, GitLab, etc.) ou arquivo .zip
+Instruções claras sobre como configurar e executar o projeto localmente.
+Conclusão
+Boa sorte! Estou à disposição para esclarecer qualquer dúvida.
+
+Atenciosamente,
+
+Marcos Marcolin - marcolindev@gmail.com
